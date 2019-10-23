@@ -1,0 +1,29 @@
+# Author details
+#
+# 1. Edit information below
+# 2. Change site author in config.yml
+# 3. Change default post/page authors in config.yml
+#
+# Resource › http://blog.sorryapp.com/blogging-with-jekyll/2014/02/06/adding-authors-to-your-jekyll-site.html
+cleisson_vieira_raimundi: # replace this with your info
+  name: "Cleisson Vieira Raimundi"
+  github: https://github.com/CleissonVieira
+  linkedin: https://www.linkedin.com/in/cleisson-vieira-raimundi-b57ba9142/
+  email: cleisson.raimundi@gmail.com
+  instagran: "@cleisson.raimundi"
+
+isabeli_rosana_reik:
+  name: "Isabeli Rosana Reik"
+  github: https://github.com/isabelirk
+  email: isabelireik2@gmail.com
+
+matheus_dias_negrao:
+  name: "Matheus Dias Negrão"
+  github: https://github.com/MaNegrao
+  email: matheus.negrao@estudante.uffs.edu.br
+
+vinicius_dos_reis_de_jesus:
+  name: "Vinicius dos Reis de Jesus"
+  github: https://github.com/Vini2reis
+  email: vinicius.reis@estudante.uffs.edu.br
+  instagran: "@vini2reis08"
