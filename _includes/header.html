@@ -1,12 +1,15 @@
 <header class="site-header" role="banner">
 
-
   <!-- AQUI VAI A LOGO -->
-  <div class="wrapper">
-    {%- assign default_paths = site.pages | map: "path" -%}
-    {%- assign page_paths = site.header_pages | default: default_paths -%}
-    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+  <div class="wrapperheader">
+    <a class="site-title" rel="author" href="{{ site.url | relative_url }}">
+      <img src="img/teste.png" class="media-object  img-responsive img-thumbnail">
+    </a>
   </div>
 
+  <!-- AQUI VAI OS LINKS-->
+  <div class="wrapperheader">
+
+  </div>
 
 </header>

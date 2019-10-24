@@ -6,17 +6,29 @@ layout: default
 <!-- "post." busca o que está dentro da pasta post, dentro dos "---", como exemplo acima do page -->
 <!-- "site." busca dentro do config.yml, todas as váriaveis, como se fosse globais -->
 
-<h2>Podcasts:</h2>
 
-{% for item in page.podcast %}
-
-  <div>
-    <h3> {{ item }} </h2>
-    <audio src="/assets/podcasts/audio.wav" controls preload></audio>
-  </div>
   
-{% endfor %}
-
-{% for page in site.posts %}
-    <a href="{{ page.url }}">{{ page.title }}</a>
-{% endfor %}
+  <div class="content list">
+    {% if site.posts.size == 0 %}
+      <h2>No post found</h2>
+    {% else %}
+      {% for post in site.posts %}
+        <div class="list-item">
+          <h2 class="list-post-title">
+            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+          </h2>
+          <p>Podcast #{% increment my_counter%}</p>
+          <div>
+            <h4>{{ post.description }}</h4>
+          </div>
+          <div>
+            <audio src="/assets/podcasts/audio.wav" controls preload></audio>
+          </div>
+          <div class="list-post-date">
+            <time>{{ post.date | date_to_string }}</time>
+          </div>
+        </div>
+        
+      {% endfor %}
+    {% endif %}
+  </div>

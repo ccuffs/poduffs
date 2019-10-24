@@ -9,6 +9,10 @@ layout: default
 
   <div class="post-content">
     {{ content }}
+
+    {% for page in site.pages %}
+       <a href="{{ page.url }}">{{ page.title }}</a>
+    {% endfor %}
   </div>
 
 </article>
