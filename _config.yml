@@ -40,7 +40,7 @@ plugins:
   - jekyll-feed
 
 markdown: kramdown
-permalink: /:day/:month/:year/:title
+permalink: /:year/:title
 
 # Exclude from processing.
 # The following items will not be processed, by default.
