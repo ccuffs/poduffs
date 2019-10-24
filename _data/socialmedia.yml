@@ -1,49 +1,16 @@
 - name: GitHub
-  url: https://github.com/CleissonVieira/fronteiracast.github.io
+  url: https://github.com/ccuffs/poduffs
   class: icon-github
-  title: Code und mehr...
+  title: GitHub FronteiraCast
 
-# - name: YouTube
-#   url: http://www.youtube.com/PhlowMedia
-#   class: icon-youtube
-#   title: "Videos, Video-Anleitungen und Filme von Phlow auf YouTube"
-
-- name: Twitter
-  url: http://twitter.com/phlow
+- name: Instagram
+  url: http://instagram.com/fronteira.cast
   class: icon-instagram
-  title: "Immer das Neuste von Phlow gibt es auf Twitter"
+  title: "Instagram FronteiraCast"
 
-- name: Mixcloud
-  url: http://www.mixcloud.com/phlow/
-  class: icon-cloud
-  title: "Mixe, was sonst?" 
+- name: YouTube
+  url: http://www.youtube.com/
+  class: icon-youtube
+  title: "Em Breve..."
 
-- name: Phlow YouTube Google+
-  url: https://plus.google.com/u/0/+Phlow
-  class: icon-googleplus
-  title: "YouTube Google+"
 
-# - name: Facebook
-#   url: http://www.facebook.com/
-#   class: icon-facebook
-#   title: ""
-
-# - name: Soundcloud
-#   url: http://soundcloud.com/
-#   class: icon-soundcloud
-#   title: ""
-
-# - name: Instagram
-#   url: http://instagram.com/
-#   class: icon-instagram
-#   title: ""
-
-# - name: Pinterest
-#   url: http://www.pinterest.com/
-#   class: icon-pinterest
-#   title: ""
-
-# - name: Xing
-#   url: https://www.xing.com/profile/
-#   class: icon-xing
-#   title: Xing Profil
