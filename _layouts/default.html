@@ -1,23 +1,31 @@
----
-layout: compress
----
-<!doctype html>
-<html class="no-js" lang="{% if site.language == nil %}en{% else %}{{ site.language }}{% endif %}">
-<head>
-	{% include _head.html %}
-</head>
-<body id="top-of-page" class="{{ layout.format }}">
-	{% unless page.skip_boilerplate %}
-	{% include _navigation.html %}
-	{% endunless %}
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> {% if page.title %} {{ page.title }} {% else %} {{ site.title }} {% endif %} </title>
+    {%- seo -%}
+    <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/styles_feeling_responsive.css" | relative_url }}">
+    {%- feed_meta -%}
+    {%- if jekyll.environment == 'production' and site.google_analytics -%}
+      {%- include google-analytics.html -%}
+    {%- endif -%}
+  </head>
+  <body>
+    {%- include _navigation.html -%} 
+    {%- include header.html -%}
 
-	{% include _masthead.html %}
-	{{ content }}
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        
+        <!-- TODO CONTEÚDO QUE CHAMAR DEFAULT VAI ENTRAR ONDE ESTÁ CONTENT -->
+        {{ content }}
 
-	{% unless page.skip_boilerplate %}
-	{% include _footer.html %}
-	{% endunless %}
+      </div>
+    </main>
 
-	{% include _footer_scripts.html %}
-</body>
+    {%- include footer.html -%}
+  </body>
 </html>

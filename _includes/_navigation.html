@@ -4,6 +4,8 @@
 *  edit `_data/navigation.yml`.
 *
 {% endcomment %}
+
+
 <div id="navigation" class="sticky">
   <nav class="top-bar" role="navigation" data-topbar>
     <ul class="title-area">
@@ -86,7 +88,7 @@
               {% elsif link.url == '#' %}
                 {% assign domain = '' %}
               {% else %}
-                {% assign domain = site.url %}
+                {% assign domain = site.url %} 
               {% endif %}
 
           {% comment %}   If there are links for left side begin   {% endcomment %}

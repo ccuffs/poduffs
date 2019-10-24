@@ -1,109 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="http://localhost:4000/feeling-responsive/assets/xslt/rss.xslt" ?>
-<?xml-stylesheet type="text/css" href="http://localhost:4000/feeling-responsive/assets/css/rss.css" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>FronteiraCast</title>
-		<description>FronteiraCast é uma nova forma de levar informações às pessoas de uma forma prática. Para saber mais clique </description>
-		<link>http://localhost:4000/feeling-responsive/</link>
-		<atom:link href="http://localhost:4000/feeling-responsive/feed.xml" rel="self" type="application/rss+xml" />
-		
-			<item>
-				<title>Play Audio &amp; Video with media&amp;shy;element.js</title>
-				<link>http://localhost:4000/feeling-responsive/design/mediaelement_js/</link>
-				<pubDate>Thu, 15 Oct 2015 00:00:00 -0300</pubDate>
-				<description>&lt;p&gt;&lt;a href=&quot;http://mediaelementjs.com/&quot;&gt;mediaelement.js&lt;/a&gt; is like magic. It’s browser and device support is perfect. To activate the video or audio player just set the following variable in front matter to &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/fronteira-cast/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/fronteira-cast/" rel="alternate" type="text/html" /><updated>2019-10-24T15:57:53-03:00</updated><id>http://localhost:4000/fronteira-cast/feed.xml</id><title type="html">Fronteira Cast</title><subtitle>O FronteiraCast é um novo projeto de cultura que está sendo realizado  por estudantes de Ciência da Computação da UFFS Campus Chapecó em  conjunto com o coordenador do curso Fernando Bevilacqua e professor Maurício Bozatski da área da Filosofia.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/fronteira-cast/23/10/2019/welcome-to-jekyll" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2019-10-23T17:02:56-03:00</published><updated>2019-10-23T17:02:56-03:00</updated><id>http://localhost:4000/fronteira-cast/23/10/2019/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/fronteira-cast/23/10/2019/welcome-to-jekyll">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;mediaplayer: true
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
 
-&lt;p&gt;To use the player just use some HTML5-magic like…&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;audio&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;http://path-to-file.com/music.mp3&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;audio/mp3&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;controls=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;controls&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/audio&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;p&gt;Where &lt;code class=&quot;highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 
-&lt;p&gt;All possible functions and how to use &lt;em&gt;mediaelement.js&lt;/em&gt; is well-documented on the &lt;a href=&quot;http://mediaelementjs.com/&quot;&gt;players website&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
 
-&lt;h2 id=&quot;music-from-all-around-the-world&quot;&gt;»Music From All Around The World«&lt;/h2&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://archive.org/details/music_from_all_around_the_world&quot;&gt;»Music From All Around The World«&lt;/a&gt; is a compilation curated by Jeannette Corneille and Moritz “mo.” Sauer for &lt;a href=&quot;http://phlow-magazine.com/&quot;&gt;Phlow-Magazine.com&lt;/a&gt;. Cover &lt;a href=&quot;http://mediaelementjs.com/&quot;&gt;Artwork designed by Jeannette Corneille&lt;/a&gt;. All tracks were released under a &lt;a href=&quot;http://jcorneille.de/&quot;&gt;creative commons licence&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;b-ju---philly-run&quot;&gt;B-Ju - »Philly Run«&lt;/h3&gt;
-
-&lt;audio src=&quot;http://archive.org/download/music_from_all_around_the_world/13._music_from_all_around_the_world_-_b-ju_-_philly_run.mp3&quot; type=&quot;audio/mp3&quot; controls=&quot;controls&quot;&gt;&lt;/audio&gt;
-
-&lt;h3 id=&quot;comfort-fit---freeze-the-cut&quot;&gt;Comfort Fit - »Freeze The Cut«&lt;/h3&gt;
-
-&lt;audio src=&quot;http://archive.org/download/music_from_all_around_the_world/05._music_from_all_around_the_world_-_comfort_fit_-_freeze_the_cut_opolopos_emotional_draft_remix.mp3&quot; type=&quot;audio/mp3&quot; controls=&quot;controls&quot;&gt;&lt;/audio&gt;
-
-&lt;h3 id=&quot;the-black-atlantic---dandelion&quot;&gt;The Black Atlantic - »Dandelion«&lt;/h3&gt;
-
-&lt;audio src=&quot;http://archive.org/download/music_from_all_around_the_world/02._music_from_all_around_the_world_-_the_black_atlantic_-_dandelion.mp3&quot; type=&quot;audio/mp3&quot; controls=&quot;controls&quot;&gt;&lt;/audio&gt;
-
-&lt;p class=&quot;t30 button radius&quot;&gt;&lt;a href=&quot;https://archive.org/details/music_from_all_around_the_world&quot;&gt;Download Compilation ›&lt;/a&gt;&lt;/p&gt;
-
-</description>
-				<guid isPermaLink="true">http://localhost:4000/feeling-responsive/design/mediaelement_js/</guid>
-			</item>
-		
-			<item>
-				<title>Now with Comments!</title>
-				<link>http://localhost:4000/feeling-responsive/design/comments/</link>
-				<pubDate>Sat, 15 Aug 2015 00:00:00 -0300</pubDate>
-				<description>&lt;p&gt;If you want to use Disqus-Comments with &lt;em&gt;Feeling Responsive&lt;/em&gt;, just open &lt;code class=&quot;highlighter-rouge&quot;&gt;config.yml&lt;/code&gt; and add your &lt;code class=&quot;highlighter-rouge&quot;&gt;disqus_shortname&lt;/code&gt;. &lt;a href=&quot;https://disqus.com/websites/&quot;&gt;More on how to use Disqus ›&lt;/a&gt;
-&lt;!--more--&gt;&lt;/p&gt;
-
-&lt;p&gt;By default comments are turned off. You can customize the default behaviour in &lt;code class=&quot;highlighter-rouge&quot;&gt;config.yml&lt;/code&gt;. To &lt;strong&gt;turn on comments&lt;/strong&gt; just add &lt;code class=&quot;highlighter-rouge&quot;&gt;comments: true&lt;/code&gt; to front matter using the page layout &lt;code class=&quot;highlighter-rouge&quot;&gt;layout: page&lt;/code&gt;.&lt;/p&gt;
-</description>
-				<guid isPermaLink="true">http://localhost:4000/feeling-responsive/design/comments/</guid>
-			</item>
-		
-			<item>
-				<title>The Post/Page Template</title>
-				<link>http://localhost:4000/feeling-responsive/design/page/</link>
-				<pubDate>Thu, 10 Jul 2014 00:00:00 -0300</pubDate>
-				<description>&lt;p&gt;&lt;em&gt;Feeling Responsive&lt;/em&gt; shows metadata by default. The default behaviour can be changed via &lt;code class=&quot;highlighter-rouge&quot;&gt;config.yml&lt;/code&gt;. To show metadata at the end of a page/post just add the following to front matter:
-&lt;!--more--&gt;&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;show_meta: true
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;If you don’t want to show metadata, it’s simple again:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;show_meta: false
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 class=&quot;t60&quot; id=&quot;other-post-formats&quot;&gt;Other Post Formats&lt;/h2&gt;
-
-&lt;ul class=&quot;side-nav&quot;&gt;
-
-  
-
-    
-      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/feeling-responsive/design/page/&quot;&gt;Templates &amp;middot; &lt;strong&gt;The Post/Page Template&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    
-
-  
-&lt;/ul&gt;
-
-</description>
-				<guid isPermaLink="true">http://localhost:4000/feeling-responsive/design/page/</guid>
-			</item>
-		
-			<item>
-				<title>Breadcrumbs</title>
-				<link>http://localhost:4000/feeling-responsive/design/breadcrumb/</link>
-				<pubDate>Thu, 10 Jul 2014 00:00:00 -0300</pubDate>
-				<description>&lt;!--more--&gt;
-
-&lt;div class=&quot;alert-box alert &quot;&gt;&lt;p&gt;WARNING: If you use breadcrumbs be aware, that if you use categories, you need pages for those categories. If not, the link in the breadcrumb won’t work.&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;front-matter-code&quot;&gt;Front Matter Code&lt;/h2&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;breadcrumb: true
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-</description>
-				<guid isPermaLink="true">http://localhost:4000/feeling-responsive/design/breadcrumb/</guid>
-			</item>
-		
-	</channel>
-</rss>
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>

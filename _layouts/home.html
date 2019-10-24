@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<!-- "page." se usa para citar o que está acima /\ "page.layout" por exemplo -->
+<!-- "post." busca o que está dentro da pasta post, dentro dos "---", como exemplo acima do page -->
+<!-- "site." busca dentro do config.yml, todas as váriaveis, como se fosse globais -->
+
+<h2>Podcasts:</h2>
+
+{% for item in page.podcast %}
+
+  <div>
+    <h3> {{ item }} </h2>
+    <audio src="/assets/podcasts/audio.wav" controls preload></audio>
+  </div>
+  
+{% endfor %}
+
+{% for page in site.posts %}
+    <a href="{{ page.url }}">{{ page.title }}</a>
+{% endfor %}

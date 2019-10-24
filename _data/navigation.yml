@@ -1,26 +1,18 @@
-- title: Start
-  url: "/"
-  side: left
+# - title: Start
+#   url: "/"
+#   side: left
 
-- title: Getting Started
-  url: "/getting-started/"
-  side: left
+# - title: Getting Started
+#   url: "/getting-started/"
+#   side: left
 
-  
-- title: "Templates"
-  url: "/design/"
-  side: left
-  dropdown:
-  - title: "Page/Post"
-    url: "/design/page/"
+# - title: Blog
+#   url: "/blog/"
+#   side: left
+#   dropdown:
+#   - title: "Blog Archive"
+#     url: "/blog/archive/" 
 
-- title: Blog
-  url: "/blog/"
-  side: left
-  dropdown:
-  - title: "Blog Archive"
-    url: "/blog/archive/" 
-
-- title: "Contact"
-  url: "/contact/"
-  side: right
+# - title: "Contact"
+#   url: "/contact/"
+#   side: right
