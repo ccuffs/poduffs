@@ -1,0 +1,38 @@
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Fronteira Cast</title>
+        <link>http://localhost:4000/fronteira-cast/</link>
+        <description>
+            <![CDATA[ Testando audios podcasts ]]>
+        </description>
+        <atom:link href="http://localhost:4000/fronteira-cast/podcasts/cursos_uffs/feed" rel="self" type="application/rss+xml"/>
+        <language>pt</language>
+        <category>News</category>
+        <copyright>Copyright PodCast Fronteira Cast</copyright>
+        <image>
+        <url>
+            http://localhost:4000/fronteira-cast/img/teste.jpg
+        </url>
+        <title>Fronteira Cast</title>
+        <link>http://localhost:4000/fronteira-cast/</link>
+        </image> 
+        <itunes:author>PodCast Fronteira Cast</itunes:author>
+        <itunes:owner>
+        <itunes:name>PodCast Fronteira Cast</itunes:name>
+        <itunes:email>poduffs@gmail.com</itunes:email>
+        </itunes:owner>
+        <itunes:image href="http://localhost:4000/fronteira-cast/img/teste.jpg"/>
+        <itunes:subtitle>Testando audios podcasts</itunes:subtitle>
+        <itunes:summary>
+            <![CDATA[ Testando audios podcasts ]]>
+        </itunes:summary>
+        <itunes:category text="News"/>
+        <itunes:explicit>clean</itunes:explicit>
+        <itunes:type>episodic</itunes:type>
+        <googleplay:author>PodCast Fronteira Cast</googleplay:author>
+        <googleplay:email>poduffs@gmail.com</googleplay:email>
+        <googleplay:description>Testando audios podcasts</googleplay:description>
+        <googleplay:category text="News and Politics"/>  
+        <googleplay:explicit>No</googleplay:explicit>
+    </channel>
+</rss>
