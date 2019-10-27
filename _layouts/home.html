@@ -22,7 +22,10 @@ layout: default
             <h4>{{ post.description }}</h4>
           </div>
           <div>
-            <audio src="/assets/podcasts/audio.wav" controls preload></audio>
+            <audio autoplay="autoplay" controls="controls">
+              <source src="/assets/podcast/teste1.mp3" type="audio/mp3" />
+              seu navegador não suporta HTML5
+            </audio>
           </div>
           <div class="list-post-date">
             <time>{{ post.date | date_to_string }}</time>
