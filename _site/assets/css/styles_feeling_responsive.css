@@ -2359,7 +2359,7 @@ body.video cite { color: #fff; }
 
 /* Subfooter
 ------------------------------------------------------------------- */
-#subfooter { background: #313131; color: #7E7E7E; padding-top: 30px; }
+#subfooter { background: #313131; color: #7E7E7E; padding-top: 30px; font: Arial, Sans-serif; }
 
 #subfooter-left ul.inline-list { float: left; }
 

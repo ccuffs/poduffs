@@ -31,7 +31,6 @@ baseurl: "/fronteira-cast" # the subpath of your site, e.g. /blog
 
 url: "http://127.0.0.1:4000" # the base hostname & protocol for your site, e.g. http://example.com
 instagram_username: fronteira.cast
-
 github_username:  FronteiraCast
 
 # Build settings
@@ -41,6 +40,18 @@ plugins:
 
 markdown: kramdown
 permalink: /:year/:title
+
+# lsi: false
+# safe: true
+# source: [your repo's top level directory]
+# incremental: false
+# highlighter: rouge
+# gist:
+#   noscript: false
+# kramdown:
+#   math_engine: mathjax
+#   syntax_highlighter: rouge
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
