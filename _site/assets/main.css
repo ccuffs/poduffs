@@ -51,7 +51,9 @@ pre { padding: 8px 12px; overflow-x: auto; }
 
 pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
-.wrapperheader { width: 100%; height: 50%; display: flex; flex-direction: row; justify-content: center; align-items: center; }
+.wrapperheaderlogo { width: 100%; height: 45%; display: flex; flex-direction: row; justify-content: center; align-items: center; }
+
+.wrapperheader { width: 100%; height: 25%; display: flex; flex-direction: row; justify-content: center; align-items: center; }
 
 /** Wrapper */
 .wrapper { max-width: -webkit-calc(800px - (30px * 2)); max-width: calc(800px - (30px * 2)); margin-right: auto; margin-left: auto; padding-right: 30px; padding-left: 30px; }
@@ -78,7 +80,7 @@ table th { background-color: #f0f0f0; border: 1px solid #dedede; border-bottom-c
 table td { border: 1px solid #e8e8e8; }
 
 /** Site header */
-.site-header { background-color: #1b1a1a; border-top: 5px solid #424242; border-bottom: 1px solid #e8e8e8; min-height: 565.95px; position: relative; text-align: center; }
+.site-header { background-color: #1b1a1a; border-top: 5px solid #424242; border-bottom: 1px solid #e8e8e8; min-height: 595.95px; position: relative; text-align: center; }
 
 .site-title { font-size: 42px; font-weight: 300; letter-spacing: -1px; margin-bottom: 0; float: left; }
 
@@ -283,5 +285,25 @@ table td { border: 1px solid #e8e8e8; }
 .highlight .vi { color: #008080; }
 
 .highlight .il { color: #099; }
+
+.linksAccess { margin: 10px; float: left; width: 130px; height: 60px; background-color: rgba(197, 200, 207, 0.2); top: -50%; }
+
+.linksAccess .img { float: left; width: 40%; height: auto; margin: 3%; }
+
+.linksAccess .rss { float: left; width: 47%; height: auto; }
+
+.linksAccess a { font-size: 100%; float: left; line-height: 350%; }
+
+.linksAccess a, .authorAccess a { text-align: center; text-decoration: none; color: white; font: Arial, Sans-serif; }
+
+.linksAccess, .authorAccess img { border-radius: 6%; }
+
+.linksAccess a { font-size: 100%; }
+
+.authorAccess { margin: 30px; float: left; width: 80px; }
+
+.authorAccess img { width: 100%; height: auto; }
+
+.authorAccess a { font-size: 80%; }
 
 /*# sourceMappingURL=main.css.map */
