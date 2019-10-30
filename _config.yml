@@ -27,9 +27,13 @@ description: >- # this means to ignore newlines until "baseurl:"
   por estudantes de Ciência da Computação da UFFS Campus Chapecó em 
   conjunto com o coordenador do curso Fernando Bevilacqua e professor Maurício Bozatski da área da Filosofia.
 
+homeurl: "http://127.0.0.1:4000/fronteira-cast/"  
+
 baseurl: "/fronteira-cast" # the subpath of your site, e.g. /blog
 
 url: "http://127.0.0.1:4000" # the base hostname & protocol for your site, e.g. http://example.com
+
+
 instagram_username: fronteira.cast
 github_username:  FronteiraCast
 
@@ -41,16 +45,6 @@ plugins:
 markdown: kramdown
 permalink: /:year/:title
 
-# lsi: false
-# safe: true
-# source: [your repo's top level directory]
-# incremental: false
-# highlighter: rouge
-# gist:
-#   noscript: false
-# kramdown:
-#   math_engine: mathjax
-#   syntax_highlighter: rouge
 
 
 # Exclude from processing.
