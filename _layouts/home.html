@@ -22,8 +22,8 @@ layout: default
             <h4>{{ post.description }}</h4>
           </div>
           <div>
-            <audio autoplay="autoplay" controls="controls">
-              <source src="podcasts/teste1.mp3" type="audio/mp3" />
+            <audio preload="none" controls="controls">
+              <source src="{{ site.homeurl }}podcasts/{{ post.audio }}" type="audio/mp3" />
               seu navegador não suporta HTML5
             </audio>
           </div>
