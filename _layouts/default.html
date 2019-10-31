@@ -15,7 +15,15 @@
   </head>
   <body>
     {%- include _navigation.html -%}
-    {%- include header.html -%}
+
+
+    {%- if page.path contains '_posts' -%}
+      {%- include headerpodcast.html -%}
+    {%- else  -%}
+      {%- include header.html -%}
+    {%- endif -%}
+
+
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">

@@ -22,7 +22,7 @@ layout: default
             <h4>{{ post.description }}</h4>
           </div>
           <div>
-            <audio preload="none" controls="controls">
+            <audio class="pod" preload="metadata" preload="none" controls="controls">
               <source src="{{ site.homeurl }}podcasts/{{ post.audio }}" type="audio/mp3" />
               seu navegador não suporta HTML5
             </audio>
@@ -34,4 +34,5 @@ layout: default
         
       {% endfor %}
     {% endif %}
+
   </div>

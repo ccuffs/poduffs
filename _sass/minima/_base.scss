@@ -169,23 +169,29 @@ pre {
   }
 }
 
+.wrapperheaderpodcast {
+  height: 30%;
+}
+
 .wrapperheaderlogo {
-  width: 100%;
   height: 45%;
+}
+
+.wrapperheaderlogo img {
+  width: 25%;
+}
+
+.wrapperheader {
+  height: 25%; 
+}
+.wrapperheader, .wrapperheaderlogo, .wrapperheaderpodcast {
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center
 }
-
-.wrapperheader {
-  width: 100%;
-  height: 25%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center 
-}
+  
 
 /**
  * Wrapper

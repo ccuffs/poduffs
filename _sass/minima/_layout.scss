@@ -1,16 +1,23 @@
 /**
  * Site header
  */
-.site-header {
+.site-header, .site-header-podcast {
   background-color: rgb(27, 26, 26);
   border-top: 5px solid $grey-color-dark;
   border-bottom: 1px solid $grey-color-light;
-  min-height: $spacing-unit * 19.865;
 
   // Positioning context for the mobile navigation icon
   position: relative;
   text-align: center;
 
+}
+
+.site-header {
+  min-height: $spacing-unit * 19.865;
+}
+
+.site-header-podcast {
+  min-height: $spacing-unit * 14.200;
 }
 
 .site-title {
