@@ -168,31 +168,7 @@ pre {
     padding-left: 0;
   }
 }
-
-.wrapperheaderpodcast {
-  height: 30%;
-}
-
-.wrapperheaderlogo {
-  height: 45%;
-}
-
-.wrapperheaderlogo img {
-  width: 25%;
-}
-
-.wrapperheader {
-  height: 25%; 
-}
-.wrapperheader, .wrapperheaderlogo, .wrapperheaderpodcast {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center
-}
   
-
 /**
  * Wrapper
  */
@@ -212,8 +188,6 @@ pre {
     padding-left: $spacing-unit / 2;
   }
 }
-
-
 
 /**
  * Clearfix

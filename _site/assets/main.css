@@ -51,16 +51,6 @@ pre { padding: 8px 12px; overflow-x: auto; }
 
 pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
-.wrapperheaderpodcast { height: 30%; }
-
-.wrapperheaderlogo { height: 45%; }
-
-.wrapperheaderlogo img { width: 25%; }
-
-.wrapperheader { height: 25%; }
-
-.wrapperheader, .wrapperheaderlogo, .wrapperheaderpodcast { width: 100%; display: flex; flex-direction: row; justify-content: center; align-items: center; }
-
 /** Wrapper */
 .wrapper { max-width: -webkit-calc(800px - (30px * 2)); max-width: calc(800px - (30px * 2)); margin-right: auto; margin-left: auto; padding-right: 30px; padding-left: 30px; }
 
@@ -88,7 +78,7 @@ table td { border: 1px solid #e8e8e8; }
 /** Site header */
 .site-header, .site-header-podcast { background-color: #1b1a1a; border-top: 5px solid #424242; border-bottom: 1px solid #e8e8e8; position: relative; text-align: center; }
 
-.site-header { min-height: 595.95px; }
+.site-header { min-height: 655.95px; }
 
 .site-header-podcast { min-height: 426px; }
 
@@ -296,6 +286,17 @@ table td { border: 1px solid #e8e8e8; }
 
 .highlight .il { color: #099; }
 
+@media only screen and (max-width: 900px) { .arrow-back { width: 50px; } }
+
+.header-podcast-title h1 { color: #8f8b8b; }
+
+.arrow-back { background-color: rgba(197, 200, 207, 0.2); border-radius: 5px; position: absolute; left: 0px; width: 200px; height: 7%; }
+
+.arrow-back a { font-size: 120%; color: inherit; text-decoration: none; }
+
+/* mouse over */
+.arrow-back a:hover { color: #a79d9d; }
+
 .linksAccess { margin: 10px; float: left; width: 130px; height: 60px; background-color: rgba(197, 200, 207, 0.2); top: -50%; }
 
 .linksAccess .img { float: left; width: 40%; height: auto; margin: 3%; }
@@ -317,5 +318,17 @@ table td { border: 1px solid #e8e8e8; }
 .authorAccess a { font-size: 80%; }
 
 .pod { background-color: black; width: 80%; }
+
+.wrapperheaderpodcast { height: 30%; }
+
+.seta img { width: 10%; }
+
+.wrapperheaderlogo { height: 45%; }
+
+.wrapperheaderlogo a { width: 24%; position: absolute; top: 3%; }
+
+.wrapperheader { height: 25%; }
+
+.wrapperheader, .wrapperheaderlogo, .wrapperheaderpodcast { width: 100%; display: flex; flex-direction: row; justify-content: center; align-items: center; }
 
 /*# sourceMappingURL=main.css.map */
