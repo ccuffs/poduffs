@@ -8,6 +8,11 @@
   class: icon-instagram
   title: "Instagram FronteiraCast"
 
+- name: Facebook
+  url: http://facebook.com/fronteira.cast
+  class: icon-facebook
+  title: "Facebook FronteiraCast"
+
 - name: YouTube
   url: http://www.youtube.com/
   class: icon-youtube

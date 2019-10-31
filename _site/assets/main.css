@@ -302,7 +302,7 @@ table td { border: 1px solid #e8e8e8; }
 
 .authorAccess { margin: 30px; float: left; width: 80px; }
 
-.authorAccess img { width: 100%; height: auto; }
+.authorAccess img { width: 100%; }
 
 .authorAccess a { font-size: 80%; }
 
