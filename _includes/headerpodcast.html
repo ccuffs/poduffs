@@ -1,27 +1,13 @@
 <header class="site-header-podcast">
 
-    <!-- AQUI VAI A LOGO -->
     <div class="wrapperheaderpodcast">
-        <h2>
-            <a href="{{ site.homeurl }}">{{ site.title }}</a>
-            <p> - Episódio # 50</p>
-        </h2>
-    </div>
-    
-    <!-- AQUI VAI OS LINKS-->
-    <div class="wrapperheaderpodcast">
-        <h2>{{ page.title }}</h2>
-    </div>
-    
-    <!-- AQUI VAI OS AUTORES DO PODCAST -->
-    <div class="wrapperheaderpodcast">
-        {%- if page.author -%}
-            <div class="authorAccess">
-                <a href="" rel="external" title="Cleisson Vieira Raimundi">
-                <img src="{{ site.homeurl }}img/cleisson.jpeg" data-loaded="true">Cleisson V. Raimundi</a>
-            </div>
-        {%- endif -%}</p>
-                    
+        <div class="arrow-back seta">
+            <a rel="author" href="{{ site.homeurl }}">
+                <img src="{{ site.homeurl }}img/arrow.svg" class="media-object  img-responsive img-thumbnail"> Todos os Episódios</a>
+        </div>
+        <div class="header-podcast-title">
+            <h1>{{ page.title }}</h1>
+        </div>
     </div>
     
 </header>

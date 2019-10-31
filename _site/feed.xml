@@ -1,21 +1,236 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/fronteiracast/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/fronteiracast/" rel="alternate" type="text/html" /><updated>2019-10-31T11:01:46-03:00</updated><id>http://localhost:4000/fronteiracast/feed.xml</id><title type="html">Fronteira Cast</title><subtitle>O FronteiraCast é um novo projeto de cultura que está sendo realizado  por estudantes de Ciência da Computação da UFFS Campus Chapecó em  conjunto com o coordenador do curso Fernando Bevilacqua e professor Maurício Bozatski da área da Filosofia.</subtitle><author><name>cleisson_raimundi</name></author><entry><title type="html">Podcast 1</title><link href="http://localhost:4000/fronteiracast/2019/podcast1" rel="alternate" type="text/html" title="Podcast 1" /><published>2019-10-25T17:02:56-03:00</published><updated>2019-10-25T17:02:56-03:00</updated><id>http://localhost:4000/fronteiracast/2019/podcast1</id><content type="html" xml:base="http://localhost:4000/fronteiracast/2019/podcast1">&lt;h1 id=&quot;2019-10-25-170256--0300&quot;&gt;2019-10-25 17:02:56 -0300&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:atom="http://www.w3.org/2005/Atom"
+xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
+>
 
-&lt;h2 id=&quot;dyasgdusud&quot;&gt;dyasgdusud&lt;/h2&gt;</content><author><name>Matheus Dias Negrao e Fernando Bevilacqua.</name></author><summary type="html">2019-10-25 17:02:56 -0300</summary></entry><entry><title type="html">Podcast 2</title><link href="http://localhost:4000/fronteiracast/2019/podcast2" rel="alternate" type="text/html" title="Podcast 2" /><published>2019-10-25T17:02:56-03:00</published><updated>2019-10-25T17:02:56-03:00</updated><id>http://localhost:4000/fronteiracast/2019/podcast2</id><content type="html" xml:base="http://localhost:4000/fronteiracast/2019/podcast2"></content><author><name>Matheus Dias Negrao e Fernando Bevilacqua.</name></author><summary type="html"></summary></entry><entry><title type="html">Podcast 3</title><link href="http://localhost:4000/fronteiracast/2019/podcast3" rel="alternate" type="text/html" title="Podcast 3" /><published>2019-10-25T17:02:56-03:00</published><updated>2019-10-25T17:02:56-03:00</updated><id>http://localhost:4000/fronteiracast/2019/podcast3</id><content type="html" xml:base="http://localhost:4000/fronteiracast/2019/podcast3">&lt;h1 id=&quot;2019-10-25-170256--0300&quot;&gt;2019-10-25 17:02:56 -0300&lt;/h1&gt;
+    <channel>
+        <title>FronteiraCast</title>
+        <atom:link href="http://localhost:4000/feed/podcast" rel="self" type="application/rss+xml" />
+        <link>http://localhost:4000</link>
+        <description>description</description>
+        <lastBuildDate>Thu, 31 Oct 2019 18:08:03 -0300</lastBuildDate>
+        <language>en-US</language>
+        <sy:updatePeriod>hourly</sy:updatePeriod>
+        <sy:updateFrequency>1</sy:updateFrequency>
+        <generator>http://jekyllrb.com</generator>
+        <itunes:summary>sumary</itunes:summary>
+        <itunes:author>Uffs</itunes:author>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:image href="http://localhost:4000/image.png" />
+        <itunes:owner>
+        <itunes:name>UFFS</itunes:name>
+        <itunes:email>poduffs@gmail.com</itunes:email>
+        </itunes:owner>
+        <managingEditor>poduffs@gmail.com (UFFS)</managingEditor>
+        <itunes:subtitle>subtitle</itunes:subtitle>
+        <image>
+        <title>FronteiraCast</title>
+        <url>http://localhost:4000/image.png</url>
+        <link>http://localhost:4000</link>
+        </image>
+        <itunes:category text="Technology">
+        <itunes:category text="One" />
+        <itunes:category text="Two" />
+        </itunes:category>
+        
+          <item>
+            <title>Podcast 3</title>
+            <link>http://localhost:4000/2019/podcast3</link>
+            <comments>http://localhost:4000/2019/podcast3#comments</comments>
+            <pubDate>Fri, 25 Oct 2019 17:02:56 -0300</pubDate>
+            <dc:creator><![CDATA[cleisson_raimundi]]></dc:creator>
+        
+        
+            <guid isPermaLink="true">http://localhost:4000/2019/podcast3</guid>
+            <description>
+                <![CDATA[2019-10-25 17:02:56 -0300
+]]>
+            </description>
+            <content:encoded>
+                <![CDATA[<h1 id="2019-10-25-170256--0300">2019-10-25 17:02:56 -0300</h1>
 
-&lt;h2 id=&quot;dyasgdusud&quot;&gt;dyasgdusud&lt;/h2&gt;</content><author><name>Matheus Dias Negrao e Fernando Bevilacqua.</name></author><summary type="html">2019-10-25 17:02:56 -0300</summary></entry><entry><title type="html">Podcast 0</title><link href="http://localhost:4000/fronteiracast/2019/podcast0" rel="alternate" type="text/html" title="Podcast 0" /><published>2019-10-22T17:02:56-03:00</published><updated>2019-10-22T17:02:56-03:00</updated><id>http://localhost:4000/fronteiracast/2019/podcast0</id><content type="html" xml:base="http://localhost:4000/fronteiracast/2019/podcast0">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<h2 id="dyasgdusud">dyasgdusud</h2>
+]]>
+            </content:encoded>
 
-&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
+            <enclosure url="http://127.0.0.1:4000/fronteiracast/podcasts/" length="" type="audio/mpeg" />
+            <itunes:subtitle><![CDATA[2019-10-25 17:02:56 -0300
+]]></itunes:subtitle>
+            <itunes:summary><![CDATA[<h1 id="2019-10-25-170256--0300">2019-10-25 17:02:56 -0300</h1>
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
+<h2 id="dyasgdusud">dyasgdusud</h2>
+]]></itunes:summary>
+            <itunes:author>Uffs</itunes:author>
+            <itunes:image href="http://127.0.0.1:4000/fronteiracast/img//image.png" />
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:duration></itunes:duration>
+          </item>
+        
+          <item>
+            <title>Podcast 2</title>
+            <link>http://localhost:4000/2019/podcast2</link>
+            <comments>http://localhost:4000/2019/podcast2#comments</comments>
+            <pubDate>Fri, 25 Oct 2019 17:02:56 -0300</pubDate>
+            <dc:creator><![CDATA[cleisson_raimundi]]></dc:creator>
+        
+        
+            <guid isPermaLink="true">http://localhost:4000/2019/podcast2</guid>
+            <description>
+                <![CDATA[
+]]>
+            </description>
+            <content:encoded>
+                <![CDATA[
+]]>
+            </content:encoded>
 
-&lt;p&gt;Where &lt;code class=&quot;highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+            <enclosure url="http://127.0.0.1:4000/fronteiracast/podcasts/" length="" type="audio/mpeg" />
+            <itunes:subtitle><![CDATA[
+]]></itunes:subtitle>
+            <itunes:summary><![CDATA[
+]]></itunes:summary>
+            <itunes:author>Uffs</itunes:author>
+            <itunes:image href="http://127.0.0.1:4000/fronteiracast/img//image.png" />
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:duration></itunes:duration>
+          </item>
+        
+          <item>
+            <title>Podcast 1</title>
+            <link>http://localhost:4000/2019/podcast1</link>
+            <comments>http://localhost:4000/2019/podcast1#comments</comments>
+            <pubDate>Fri, 25 Oct 2019 17:02:56 -0300</pubDate>
+            <dc:creator><![CDATA[cleisson_raimundi]]></dc:creator>
+        
+        
+            <guid isPermaLink="true">http://localhost:4000/2019/podcast1</guid>
+            <description>
+                <![CDATA[2019-10-25 17:02:56 -0300
+]]>
+            </description>
+            <content:encoded>
+                <![CDATA[<h1 id="2019-10-25-170256--0300">2019-10-25 17:02:56 -0300</h1>
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+<h2 id="dyasgdusud">dyasgdusud</h2>
+]]>
+            </content:encoded>
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+            <enclosure url="http://127.0.0.1:4000/fronteiracast/podcasts/" length="" type="audio/mpeg" />
+            <itunes:subtitle><![CDATA[2019-10-25 17:02:56 -0300
+]]></itunes:subtitle>
+            <itunes:summary><![CDATA[<h1 id="2019-10-25-170256--0300">2019-10-25 17:02:56 -0300</h1>
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name>Cleisson Vieira Raimundi, Pessoa Aleatoria</name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
+<h2 id="dyasgdusud">dyasgdusud</h2>
+]]></itunes:summary>
+            <itunes:author>Uffs</itunes:author>
+            <itunes:image href="http://127.0.0.1:4000/fronteiracast/img//image.png" />
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:duration></itunes:duration>
+          </item>
+        
+          <item>
+            <title>Podcast 0</title>
+            <link>http://localhost:4000/2019/podcast0</link>
+            <comments>http://localhost:4000/2019/podcast0#comments</comments>
+            <pubDate>Tue, 22 Oct 2019 17:02:56 -0300</pubDate>
+            <dc:creator><![CDATA[cleisson_raimundi]]></dc:creator>
+        
+        
+            <guid isPermaLink="true">http://localhost:4000/2019/podcast0</guid>
+            <description>
+                <![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when...]]>
+            </description>
+            <content:encoded>
+                <![CDATA[<p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+<p>Jekyll requires blog post files to be named according to the following format:</p>
+
+<p><code class="highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
+
+<p>Where <code class="highlighter-rouge">YEAR</code> is a four-digit number, <code class="highlighter-rouge">MONTH</code> and <code class="highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+
+<p>Jekyll also offers powerful support for code snippets:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
+
+]]>
+            </content:encoded>
+
+            <enclosure url="http://127.0.0.1:4000/fronteiracast/podcasts/" length="" type="audio/mpeg" />
+            <itunes:subtitle><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when...]]></itunes:subtitle>
+            <itunes:summary><![CDATA[<p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+<p>Jekyll requires blog post files to be named according to the following format:</p>
+
+<p><code class="highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
+
+<p>Where <code class="highlighter-rouge">YEAR</code> is a four-digit number, <code class="highlighter-rouge">MONTH</code> and <code class="highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+
+<p>Jekyll also offers powerful support for code snippets:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
+
+]]></itunes:summary>
+            <itunes:author>Uffs</itunes:author>
+            <itunes:image href="http://127.0.0.1:4000/fronteiracast/img//image.png" />
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:duration></itunes:duration>
+          </item>
+        
+          <item>
+            <title>Episode Title Goes Here</title>
+            <link>http://localhost:4000/35/</link>
+            <comments>http://localhost:4000/35/#comments</comments>
+            <pubDate>Tue, 20 Oct 2015 00:00:00 -0200</pubDate>
+            <dc:creator><![CDATA[cleisson_raimundi]]></dc:creator>
+        
+            <category><![CDATA[podcast]]></category>
+        
+        
+            <category><![CDATA[tagone]]></category>
+        
+            <category><![CDATA[tagtwo]]></category>
+        
+            <category><![CDATA[tagthree]]></category>
+        
+            <guid isPermaLink="false">http://localhost:4000/?p=866</guid>
+            <description>
+                <![CDATA[
+]]>
+            </description>
+            <content:encoded>
+                <![CDATA[
+]]>
+            </content:encoded>
+
+            <enclosure url="http://127.0.0.1:4000/fronteiracast/podcasts/2019-10-22-podcast0.mp3" length="13654375" type="audio/mpeg" />
+            <itunes:subtitle><![CDATA[
+]]></itunes:subtitle>
+            <itunes:summary><![CDATA[
+]]></itunes:summary>
+            <itunes:author>Uffs</itunes:author>
+            <itunes:image href="http://127.0.0.1:4000/fronteiracast/img//image.png" />
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:duration>14:02</itunes:duration>
+          </item>
+        
+    </channel>
+</rss>
