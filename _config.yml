@@ -18,12 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-author: cleisson_raimundi
 
 title: Fronteira Cast
-
 email: poduffs@gmail.com
-
 description: >- # this means to ignore newlines until "baseurl:"
   O FronteiraCast é um novo projeto de cultura que está sendo realizado
   por estudantes de Ciência da Computação da UFFS Campus Chapecó em
