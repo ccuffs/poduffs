@@ -2347,16 +2347,6 @@ body.video cite { color: #fff; }
 
 #up-to-top a:hover { background: #D7D7D7; }
 
-/* Footer
-------------------------------------------------------------------- */
-#footer-content p, #footer-content li { font-size: 0.8125rem; font-weight: 300; }
-
-#footer { padding-top: 30px; padding-bottom: 20px; background: #7E7E7E; color: #fff; }
-
-#footer a { color: #A1D044; }
-
-#footer h4, #footer h5 { letter-spacing: 1px; color: #fff; text-transform: uppercase; }
-
 /* Subfooter
 ------------------------------------------------------------------- */
 #subfooter { background: #313131; color: #7E7E7E; padding-top: 35px; font: Arial, Sans-serif; }
