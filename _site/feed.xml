@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
         <atom:link href="http://localhost:4000/feed/podcast" rel="self" type="application/rss+xml" />
         <link>http://localhost:4000</link>
         <description>description</description>
-        <lastBuildDate>Thu, 31 Oct 2019 18:08:03 -0300</lastBuildDate>
+        <lastBuildDate>Thu, 31 Oct 2019 22:31:04 -0300</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>hourly</sy:updatePeriod>
         <sy:updateFrequency>1</sy:updateFrequency>
@@ -49,22 +49,18 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
         
             <guid isPermaLink="true">http://localhost:4000/2019/podcast3</guid>
             <description>
-                <![CDATA[2019-10-25 17:02:56 -0300
+                <![CDATA[
 ]]>
             </description>
             <content:encoded>
-                <![CDATA[<h1 id="2019-10-25-170256--0300">2019-10-25 17:02:56 -0300</h1>
-
-<h2 id="dyasgdusud">dyasgdusud</h2>
+                <![CDATA[
 ]]>
             </content:encoded>
 
             <enclosure url="http://127.0.0.1:4000/fronteiracast/podcasts/" length="" type="audio/mpeg" />
-            <itunes:subtitle><![CDATA[2019-10-25 17:02:56 -0300
+            <itunes:subtitle><![CDATA[
 ]]></itunes:subtitle>
-            <itunes:summary><![CDATA[<h1 id="2019-10-25-170256--0300">2019-10-25 17:02:56 -0300</h1>
-
-<h2 id="dyasgdusud">dyasgdusud</h2>
+            <itunes:summary><![CDATA[
 ]]></itunes:summary>
             <itunes:author>Uffs</itunes:author>
             <itunes:image href="http://127.0.0.1:4000/fronteiracast/img//image.png" />
@@ -111,22 +107,18 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
         
             <guid isPermaLink="true">http://localhost:4000/2019/podcast1</guid>
             <description>
-                <![CDATA[2019-10-25 17:02:56 -0300
+                <![CDATA[
 ]]>
             </description>
             <content:encoded>
-                <![CDATA[<h1 id="2019-10-25-170256--0300">2019-10-25 17:02:56 -0300</h1>
-
-<h2 id="dyasgdusud">dyasgdusud</h2>
+                <![CDATA[
 ]]>
             </content:encoded>
 
             <enclosure url="http://127.0.0.1:4000/fronteiracast/podcasts/" length="" type="audio/mpeg" />
-            <itunes:subtitle><![CDATA[2019-10-25 17:02:56 -0300
+            <itunes:subtitle><![CDATA[
 ]]></itunes:subtitle>
-            <itunes:summary><![CDATA[<h1 id="2019-10-25-170256--0300">2019-10-25 17:02:56 -0300</h1>
-
-<h2 id="dyasgdusud">dyasgdusud</h2>
+            <itunes:summary><![CDATA[
 ]]></itunes:summary>
             <itunes:author>Uffs</itunes:author>
             <itunes:image href="http://127.0.0.1:4000/fronteiracast/img//image.png" />
@@ -144,50 +136,18 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
         
             <guid isPermaLink="true">http://localhost:4000/2019/podcast0</guid>
             <description>
-                <![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when...]]>
+                <![CDATA[
+]]>
             </description>
             <content:encoded>
-                <![CDATA[<p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
-
-<p>Jekyll requires blog post files to be named according to the following format:</p>
-
-<p><code class="highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
-
-<p>Where <code class="highlighter-rouge">YEAR</code> is a four-digit number, <code class="highlighter-rouge">MONTH</code> and <code class="highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
-
-<p>Jekyll also offers powerful support for code snippets:</p>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
-
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
-
+                <![CDATA[
 ]]>
             </content:encoded>
 
             <enclosure url="http://127.0.0.1:4000/fronteiracast/podcasts/" length="" type="audio/mpeg" />
-            <itunes:subtitle><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when...]]></itunes:subtitle>
-            <itunes:summary><![CDATA[<p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
-
-<p>Jekyll requires blog post files to be named according to the following format:</p>
-
-<p><code class="highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
-
-<p>Where <code class="highlighter-rouge">YEAR</code> is a four-digit number, <code class="highlighter-rouge">MONTH</code> and <code class="highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
-
-<p>Jekyll also offers powerful support for code snippets:</p>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
-
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
-
+            <itunes:subtitle><![CDATA[
+]]></itunes:subtitle>
+            <itunes:summary><![CDATA[
 ]]></itunes:summary>
             <itunes:author>Uffs</itunes:author>
             <itunes:image href="http://127.0.0.1:4000/fronteiracast/img//image.png" />

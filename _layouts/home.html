@@ -15,17 +15,17 @@ layout: default
       {% assign my_counter = site.posts.size %}
       {% for post in site.posts %}
         <div class="list-item">
-          <h2 class="list-post-title">
+          <h2 class="list-post-title fontep">
             <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
           </h2>
-          <p>Podcast #{{ my_counter }}</p>
+          <p>Episódio #{{ my_counter }}</p>
           {% assign my_counter = my_counter | minus: 1 %}
           <div>
             <h4>{{ post.description }}</h4>
           </div>
           <div>
-            <audio class="pod" preload="metadata" preload="none" controls="controls">
-              <source src="{{ site.homeurl }}podcasts/{{ post.audio }}" type="audio/mp3" />
+            <audio class="pod" preload="none" controls="controls">
+              <source src="{{ site.homeurl }}podcasts/{{ post.audio }}" type="audio/mpeg"/>
               seu navegador não suporta HTML5
             </audio>
           </div>
