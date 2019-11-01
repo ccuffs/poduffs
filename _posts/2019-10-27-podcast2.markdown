@@ -5,5 +5,4 @@ audio: "2019-10-27-podcast2.mp3"
 description: Um podcast sobre o curso de Ciência da Computação. Foi entrevistado o coordenador do curso e egressos.
 date: 2019-10-25 17:02:56 -0300
 author: Matheus Dias Negrao e Fernando Bevilacqua.
-
 ---
