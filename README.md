@@ -1,5 +1,5 @@
 
-# **Podcast FronteiraCast**
+# Podcast FronteiraCast
 
   O FronteiraCast é um novo projeto de cultura que está sendo realizado por estudantes de Ciência da Computação da UFFS       Campus Chapecó em conjunto com o coordenador do curso Fernando Bevilacqua e professor Maurício Bozatski da área da Filosofia.
   
@@ -12,7 +12,7 @@
 
 
 
-## **Contribuiçõs para o repositório: preparando o ambiente**
+## Contribuiçõs para o repositório: preparando o ambiente
 
 
 **1 - git:** vamos precisar colocar o site no GitHub para servi-lo:
@@ -40,7 +40,7 @@ gem install jekyll bundler
 '''
 
 
-## ** Baixando o tema **
+## Baixando o tema
 
 Pode ser feito de duas maneiras, ou pode realizar um Fork a partir do link: ** https://github.com/ccuffs/poduffs **
 
@@ -49,7 +49,7 @@ git clone https://github.com/ccuffs/poduffs
 '''
 
 
-## ** Rodando o Projeto **
+## Rodando o Projeto
 
 Depois de clonar o repositório em sua máquina, acesse a pasta via terminal e rode os seguintes comandos: 
 
@@ -58,3 +58,6 @@ cd repositório
 bundle install
 bundle exec jekyll serve
 '''
+
+
+# Muito obrigado!
