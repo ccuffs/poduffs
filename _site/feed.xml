@@ -14,7 +14,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
         <atom:link href="http://localhost:4000/feed/podcast" rel="self" type="application/rss+xml" />
         <link>http://localhost:4000</link>
         <description>description</description>
-        <lastBuildDate>Thu, 31 Oct 2019 23:20:27 -0300</lastBuildDate>
+        <lastBuildDate>Fri, 01 Nov 2019 01:41:15 -0300</lastBuildDate>
         <language>en-US</language>
         <sy:updatePeriod>hourly</sy:updatePeriod>
         <sy:updateFrequency>1</sy:updateFrequency>
@@ -44,7 +44,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
             <link>http://localhost:4000/2019/podcast3</link>
             <comments>http://localhost:4000/2019/podcast3#comments</comments>
             <pubDate>Fri, 25 Oct 2019 17:02:56 -0300</pubDate>
-            <dc:creator><![CDATA[cleisson_raimundi]]></dc:creator>
+            <dc:creator><![CDATA[]]></dc:creator>
         
         
             <guid isPermaLink="true">http://localhost:4000/2019/podcast3</guid>
@@ -73,7 +73,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
             <link>http://localhost:4000/2019/podcast2</link>
             <comments>http://localhost:4000/2019/podcast2#comments</comments>
             <pubDate>Fri, 25 Oct 2019 17:02:56 -0300</pubDate>
-            <dc:creator><![CDATA[cleisson_raimundi]]></dc:creator>
+            <dc:creator><![CDATA[]]></dc:creator>
         
         
             <guid isPermaLink="true">http://localhost:4000/2019/podcast2</guid>
@@ -102,7 +102,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
             <link>http://localhost:4000/2019/podcast1</link>
             <comments>http://localhost:4000/2019/podcast1#comments</comments>
             <pubDate>Fri, 25 Oct 2019 17:02:56 -0300</pubDate>
-            <dc:creator><![CDATA[cleisson_raimundi]]></dc:creator>
+            <dc:creator><![CDATA[]]></dc:creator>
         
         
             <guid isPermaLink="true">http://localhost:4000/2019/podcast1</guid>
@@ -131,7 +131,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
             <link>http://localhost:4000/2019/podcast0</link>
             <comments>http://localhost:4000/2019/podcast0#comments</comments>
             <pubDate>Tue, 22 Oct 2019 17:02:56 -0300</pubDate>
-            <dc:creator><![CDATA[cleisson_raimundi]]></dc:creator>
+            <dc:creator><![CDATA[]]></dc:creator>
         
         
             <guid isPermaLink="true">http://localhost:4000/2019/podcast0</guid>
@@ -160,7 +160,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
             <link>http://localhost:4000/35/</link>
             <comments>http://localhost:4000/35/#comments</comments>
             <pubDate>Tue, 20 Oct 2015 00:00:00 -0200</pubDate>
-            <dc:creator><![CDATA[cleisson_raimundi]]></dc:creator>
+            <dc:creator><![CDATA[]]></dc:creator>
         
             <category><![CDATA[podcast]]></category>
         
