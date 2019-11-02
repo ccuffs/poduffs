@@ -105,7 +105,7 @@ table td { border: 1px solid #e8e8e8; }
   .site-nav .page-link:not(:last-child) { margin-right: 0; } }
 
 /** Site footer */
-.site-footer { border-top: 1px solid #e8e8e8; padding: 30px 0; }
+.site-footer { border-top: 1px solid #e8e8e8; padding: 30px 0; background-color: #1f1d1d; }
 
 .footer-heading { font-size: 18px; margin-bottom: 15px; }
 
@@ -285,7 +285,7 @@ table td { border: 1px solid #e8e8e8; }
 
 .highlight .il { color: #099; }
 
-@media only screen and (max-width: 800px) { .wrapperheaderpodcast { height: 100px; }
+@media only screen and (max-width: 700px) { .wrapperheaderpodcast { height: 100px; }
   .wrapperheaderlogo { height: 45%; }
   .wrapperheader { height: 150px; }
   .wrapperheaderlogo a { width: 23%; top: 15px; }
@@ -344,7 +344,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* Footer
 ------------------------------------------------------------------- */
-#subfooter { background: #1a1919; color: #c5bbbb; padding-top: 35px; font: Arial, Sans-serif; }
+@media only screen and (max-width: 700px) { .linkFooter { width: 50px; }
+  .linkFooter div { width: 20px; height: 20px; } }
+
+.linkFooter { width: 60%; border-color: blue; text-align: center; float: left; }
+
+.linkFooter div { display: inline-block; width: 50px; height: 50px; margin: 5px 5px; }
+
+.u-email { color: #948e8e; }
+
+.u-email:hover { text-decoration: none; color: #aca9a9; }
+
+#subfooter { background: #1a1919; color: #d3cccc; padding-top: 35px; font: Arial, Sans-serif; }
 
 #subfooter-left ul.inline-list { float: left; }
 
