@@ -18,10 +18,45 @@ summary {
 
 /* Footer
 ------------------------------------------------------------------- */
+@media only screen and (max-width: 700px) {
+  .linkFooter {
+    width: 50px;
+  }
+
+  .linkFooter div {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.linkFooter {
+  width: 60%;
+  border-color: blue;
+  text-align: center;
+  float: left;
+}
+
+.linkFooter div {
+  display: inline-block;
+  width: 50px; 
+  height: 50px;
+  margin: 5px 5px;
+}
+
+
+.u-email {
+  color: rgb(148, 142, 142);;
+}
+
+.u-email:hover {
+  text-decoration: none;
+  color: rgb(172, 169, 169);
+}
+
 
 #subfooter {
     background: rgb(26, 25, 25);
-    color: rgb(197, 187, 187);
+    color: rgb(211, 204, 204);
     padding-top: 35px;
     font: Arial, Sans-serif;
 }
